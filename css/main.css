@@ -50,7 +50,6 @@ body {
   position: relative;
   width: 70%;
   font-size: 2vw;
-  padding: 5%;
   top: 20%;
   border: 2px solid #f1f1f1;
   border-radius: 10px;
@@ -66,7 +65,8 @@ body {
 }
 .flex-about a {
     color:#fff;
-
+    display: block;
+    padding: 5%;
     text-decoration: none;
 }
 @media screen and (max-width: 768px) {
